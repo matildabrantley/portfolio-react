@@ -39,6 +39,11 @@ function WorkCard({ children }) {
           ];
           setAnimatedProps({ coords: coords });
         }}
+        onMouseLeave={() => {
+          setHoveredOver(false);
+          // Reset coordinates
+          setAnimatedProps({ coords: [1, 1, 1] });
+        }}
       >
         {children}
       </animated.div>
