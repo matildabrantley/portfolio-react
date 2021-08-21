@@ -4,23 +4,25 @@ import password from './cardImages/password-gen.jpg';
 import quiz from './cardImages/quiz.jpg';
 import ecommerce from './cardImages/ecommerce.jpg';
 import tracker from './cardImages/employeetracker.jpg';
+import weather from './cardImages/weather.png';
+import dayPlanner from './cardImages/day-planner.jpg';
 
 const cardsInfo = [
   {
     id: 1,
-    title: "Brewhaha",
-    description:
-      "OpenBrewery & Wikipedia APIs",
-    image: brew,
-    imageRatio: 784 / 1016
-  },
-  {
-    id: 2,
     title: "LEaseGIT",
     description:
       "Sequelize, Express, Matter",
     image: room,
     imageRatio: 839 / 1133
+  },
+  {
+    id: 2,
+    title: "Brewhaha",
+    description:
+      "OpenBrewery & Wikipedia APIs",
+    image: brew,
+    imageRatio: 784 / 1016
   },
   {
     id: 3,
@@ -51,7 +53,23 @@ const cardsInfo = [
     title: "Weather Dashboard",
     description:
       "OpenWeather API",
+    image: weather,
+    imageRatio: 784 / 1016
+  },
+  {
+    id: 7,
+    title: "Coding Quiz",
+    description:
+      "JavaScript, Dynamic Content",
     image: tracker,
+    imageRatio: 784 / 1016
+  },
+  {
+    id: 8,
+    title: "Work Day Scheduler",
+    description:
+      "jQuery, Client-side Storage",
+    image: dayPlanner,
     imageRatio: 784 / 1016
   }
 ];
