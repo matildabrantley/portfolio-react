@@ -2,6 +2,7 @@ import WorkCard from "./WorkCard";
 import Image from "./Image";
 import cardsInfo from "./cardsInfo";
 import "./index.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

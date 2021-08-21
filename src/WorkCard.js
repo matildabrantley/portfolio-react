@@ -42,7 +42,7 @@ function WorkCard({ children }) {
         onMouseLeave={() => {
           setHoveredOver(false);
           // Reset coordinates
-          setAnimatedProps({ coords: [1, 1, 1] });
+          setAnimatedProps({ coords: [0, 0, 1] });
         }}
       >
         {children}
