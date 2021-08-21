@@ -9,6 +9,10 @@
     flex-direction: column;
     height: auto;
   }
+
+  html {
+    background-color: black;
+  }
   
   body {
     height: 100%;
@@ -18,14 +22,7 @@
     color: black;
     display: flex;
     flex-direction: column;
-    background: url("floral-dream5.jpg")  no-repeat center center fixed; 
-  }
-
-  
-  @media screen and (min-width: 980px) {
-    .heor-body {
-      padding: 8rem 1.5rem;
-    }
+    background: url("floral-dream5.jpg")  repeat center center fixed; 
   }
   
   .container {
@@ -53,11 +50,12 @@
   }
   
   .work-card {
+    min-width: 250px;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 10px;
     background-color: #fff;
-    box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.5s;
     will-change: transform;
   }
