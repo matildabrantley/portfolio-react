@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
-import "./index.css";
+import "../index.css";
 
 function WorkCard({ children }) {
     

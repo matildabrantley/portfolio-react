@@ -61,7 +61,7 @@ const cardsInfo = [
     title: "Coding Quiz",
     description: "JavaScript, Dynamic Content",
     url: "https://matildabrantley.github.io/code-quiz/",
-    image: tracker,
+    image: quiz,
     imageRatio: 800 / 1000
   },
   {
