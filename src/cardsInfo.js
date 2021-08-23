@@ -11,66 +11,66 @@ const cardsInfo = [
   {
     id: 1,
     title: "LEaseGIT",
-    description:
-      "Sequelize, Express, Matter",
+    url: "https://still-tundra-21201.herokuapp.com/",
+    description: "Sequelize, Express, Matter",
     image: room,
-    imageRatio: 839 / 1133
+    imageRatio: 784 / 1016
   },
   {
     id: 2,
     title: "Brewhaha",
-    description:
-      "OpenBrewery & Wikipedia APIs",
+    url: "https://matildabrantley.github.io/project-one/",
+    description: "OpenBrewery & Wikipedia APIs",
     image: brew,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   },
   {
     id: 3,
     title: "Password Generator",
-    description:
-      "Generates passwords from user prompts",
+    url: "https://matildabrantley.github.io/password-generator/",
+    description: "Generates passwords from user prompts",
     image: password,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   },
   {
     id: 4,
     title: "E-Commerce",
-    description:
-      "Sequelize, Express",
+    url: "https://github.com/matildabrantley/e-commerce-back-end",
+    description: "Sequelize, Express",
     image: ecommerce,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   },
   {
     id: 5,
     title: "Employee Tracker",
-    description:
-      "",
+    url: "https://github.com/matildabrantley/employee-tracker",
+    description: "",
     image: tracker,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   },
   {
     id: 6,
     title: "Weather Dashboard",
-    description:
-      "OpenWeather API",
+    url: "https://matildabrantley.github.io/weather-dashboard/",
+    description: "OpenWeather API",
     image: weather,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   },
   {
     id: 7,
     title: "Coding Quiz",
-    description:
-      "JavaScript, Dynamic Content",
+    description: "JavaScript, Dynamic Content",
+    url: "https://matildabrantley.github.io/code-quiz/",
     image: tracker,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   },
   {
     id: 8,
     title: "Work Day Scheduler",
-    description:
-      "jQuery, Client-side Storage",
+    description: "jQuery, Client-side Storage",
+    url: "https://matildabrantley.github.io/work-day-scheduler/",
     image: dayPlanner,
-    imageRatio: 784 / 1016
+    imageRatio: 800 / 1000
   }
 ];
 

@@ -13,11 +13,15 @@ function App() {
       <div className="row">
         {cardsInfo.map((workCard, i) => (
           <div className="col" key={workCard.id}>
-            <WorkCard>
-              <div className="work-card-name">{workCard.title}</div>
-              <div className="work-card-info">{workCard.description}</div>
-              <Image ratio={workCard.imageRatio} src={workCard.image} />
-            </WorkCard>
+              <WorkCard>
+                <a href = {workCard.url}>
+                  <div className="work-card-name">{workCard.title}</div>
+                </a>
+                <div className="work-card-info">{workCard.description}</div>
+                <a href = {workCard.url}>
+                  <Image ratio={workCard.imageRatio} src={workCard.image} />
+                </a>
+              </WorkCard>
           </div>
         ))}
       </div>
