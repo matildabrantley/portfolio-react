@@ -13,7 +13,7 @@ My portfolio refactored with React
 * LEaseGIT - Sequelize, Express, Matter
 * Brehaha - OpenBrewery & Wikipedia APIs
 * Password Generator - Generates passwords from user prompts
-* E-Commerce Back-End
+* E-Commerce Back-End - SQL
 * Employee Tracker - Node, Inquirer
 * Weather Dashboard - OpenWeather API
 * Coding Quiz - jQuery, Client-side Storage
