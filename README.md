@@ -3,18 +3,21 @@
 ## [Portfolio Site](https://matildabrantley.github.io/portfolio-react/)
 ### [My GitHub](https://github.com/matildabrantley)
 ## Table of Contents:
-* [Installing](#installing)
-* [Usage](#usage)
-* [Features](#features)
+* [Projects](#projects)
 * [License](#license)
 * [Questions](#questions)
 ## Description
 My portfolio refactored with React
-## Installing 
-* The following command installs dependencies:
-  * npm i
 
-## Features
+## Projects
+* LEaseGIT - Sequelize, Express, Matter
+* Brehaha - OpenBrewery & Wikipedia APIs
+* Password Generator - Generates passwords from user prompts
+* E-Commerce Back-End
+* Employee Tracker - Node, Inquirer
+* Weather Dashboard - OpenWeather API
+* Coding Quiz - jQuery, Client-side Storage
+* Work Day Scheduler 
 ## Screenshots
 ![Screenshot](screenshot.png)
 ## License
