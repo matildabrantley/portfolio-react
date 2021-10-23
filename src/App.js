@@ -19,10 +19,10 @@ function App() {
                 <a href = {workCard.url}>
                   <div className="work-card-name">{workCard.title}</div>
                 </a>
-                <div className="work-card-info">{workCard.description}</div>
                 <a href = {workCard.url}>
                   <Image ratio={workCard.imageRatio} src={workCard.image} />
                 </a>
+                <div className="work-card-info">{workCard.description}</div>
               </WorkCard>
           </div>
         ))}
