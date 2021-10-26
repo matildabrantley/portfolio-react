@@ -6,6 +6,7 @@ import ecommerce from './cardImages/ecommerce.jpg';
 import tracker from './cardImages/employeetracker.jpg';
 import weather from './cardImages/weather.png';
 import dayPlanner from './cardImages/day-planner.jpg';
+import workoutTracker from './cardImages/workout-tracker.png';
 
 const cardsInfo = [
   {
@@ -71,7 +72,15 @@ const cardsInfo = [
     url: "https://matildabrantley.github.io/work-day-scheduler/",
     image: dayPlanner,
     imageRatio: 800 / 1000
-  }
+  },
+  {
+    id: 9,
+    title: "Workout Tracker",
+    description: "NoSQL with MongoDB, Express, Chart.js",
+    url: "https://matildabrantley.github.io/work-day-scheduler/",
+    image: workoutTracker,
+    imageRatio: 800 / 1000
+  },
 ];
 
 export default cardsInfo;
