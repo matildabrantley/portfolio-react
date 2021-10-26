@@ -77,7 +77,7 @@ const cardsInfo = [
     id: 9,
     title: "Workout Tracker",
     description: "NoSQL with MongoDB, Express, Chart.js",
-    url: "https://matildabrantley.github.io/work-day-scheduler/",
+    url: "https://mysterious-retreat-86741.herokuapp.com/",
     image: workoutTracker,
     imageRatio: 800 / 1000
   },
