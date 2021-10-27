@@ -21,6 +21,51 @@
     /* background: url("floral-dream5.jpg")  repeat center center fixed;  */
   }
 
+  .backgrounds {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.25;
+    z-index:-1;
+    background-size: cover;
+  }
+  #background1 {
+    background: url("background-styles/floral-dream1.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  #background2 {
+    background: url("background-styles/floral-dream2.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  #background3 {
+    background: url("background-styles/floral-dream3.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  #background4 {
+    background: url("background-styles/floral-dream4.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  #background5 {
+    background: url("background-styles/floral-dream5.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  #background6 {
+    background: url("background-styles/floral-dream6.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
   .navig {
     border-left: solid 4px rgba(200, 0, 200, 0.1);
     border-right: solid 4px rgba(200, 0, 200, 0.1);
