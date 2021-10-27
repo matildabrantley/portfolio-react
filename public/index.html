@@ -7,15 +7,77 @@
 	<meta name="theme-color" content="#000000">
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-	<title>React App</title>
+	<style>
+		.backgrounds {
+			position: fixed;
+			width: 100vw;
+			height: 100vh;
+			opacity: 0.5;
+			z-index:-1;
+			background-size: cover;
+		}
+
+		#background0 {
+			background: rgb(0,0,0)  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			opacity: 0.7;
+		}
+
+		#background1 {
+			background: url("background-styles/floral-dream1.jpg")  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		#background2 {
+			background: url("background-styles/floral-dream2.jpg")  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		#background3 {
+			background: url("background-styles/floral-dream3.jpg")  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+
+		#background4 {
+			background: url("background-styles/floral-dream4.jpg")  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+
+		#background5 {
+			background: url("background-styles/floral-dream5.jpg")  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+
+		#background6 {
+			background: url("background-styles/floral-dream6.jpg")  no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+	  </style>
+	<title>Matilda Brantley's Portfolio</title>
 </head>
 
 <!-- Background image's style slightly shifts with mouse position -->
 <body onmousemove="changeOpacity(event)>  
 	<div>
-		<div id="background1" class="backgrounds"></div>
-		<div id="background2" class="backgrounds"></div>
-		<div id="background3" class="backgrounds"></div>
+		<div id="background0" class="backgrounds"></div>
+        <div id="background1" class="backgrounds"></div>
+        <div id="background2" class="backgrounds"></div>
+        <div id="background3" class="backgrounds"></div>
+        <div id="background4" class="backgrounds"></div>
+        <div id="background5" class="backgrounds"></div>
+        <div id="background6" class="backgrounds"></div>
 	</div>
 
 	<div id="root"></div>
