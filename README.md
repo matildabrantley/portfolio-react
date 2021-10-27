@@ -16,8 +16,9 @@ My portfolio refactored with React
 * E-Commerce Back-End - SQL
 * Employee Tracker - Node, Inquirer
 * Weather Dashboard - OpenWeather API
-* Coding Quiz - jQuery, Client-side Storage
-* Work Day Scheduler 
+* Coding Quiz - jQuery, Dynamic Content
+* Work Day Scheduler - jQuery, Client-side Storage
+* Workout Tracker - NoSQL with MongoDB, Express, Chart.js
 ## Screenshots
 ![Screenshot](screenshot.png)
 ## License

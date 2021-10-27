@@ -27,11 +27,13 @@ function WorkCard({ children }) {
             transform: animatedProps.coords.to((xCoord, yCoord, scale) =>
             `perspective(1000px) rotateX(${xCoord}deg) rotateY(${yCoord}deg) scale(${scale})`)
         }}
+        //
         onMouseMove={({ clientX, clientY }) => {
           //Mouse
           const xCoord = clientX - (ref.current.offsetLeft - (window.scrollX || window.pageXOffset || document.body.scrollLeft));
           const yCoord = clientY - (ref.current.offsetTop - (window.scrollY || window.pageYOffset || document.body.scrollTop));
   
+          //Calculate angle of mouse from center of card
           const coords = [
             -1 * (yCoord - ref.current.clientHeight / 2) / 80, 
             (xCoord - ref.current.clientWidth / 2) / 80,
@@ -39,13 +41,14 @@ function WorkCard({ children }) {
           ];
           setAnimatedProps({ coords: coords });
         }}
+        //When mouse leaves work card, reset to original state
         onMouseLeave={() => {
           setHoveredOver(false);
           // Reset coordinates
           setAnimatedProps({ coords: [0, 0, 1] });
         }}
       >
-        {children}
+        {children} {/* children are content of work card */}
       </animated.div>
     );
   }
