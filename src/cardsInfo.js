@@ -7,6 +7,7 @@ import tracker from './cardImages/employeetracker.jpg';
 import weather from './cardImages/weather.png';
 import dayPlanner from './cardImages/day-planner.jpg';
 import workoutTracker from './cardImages/workout-tracker.png';
+import bookSearch from './cardImages/book-search.png';
 
 const cardsInfo = [
   {
@@ -79,6 +80,14 @@ const cardsInfo = [
     description: "NoSQL with MongoDB, Express, Chart.js",
     url: "https://mysterious-retreat-86741.herokuapp.com/",
     image: workoutTracker,
+    imageRatio: 800 / 1000
+  },
+  {
+    id: 10,
+    title: "Book Search Engine",
+    description: "M.E.R.N. Stack, Google Books API",
+    url: "https://fathomless-dusk-11575.herokuapp.com/",
+    image: bookSearch,
     imageRatio: 800 / 1000
   },
 ];

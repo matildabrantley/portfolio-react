@@ -6,7 +6,7 @@ function About() {
           <h4 className="h4">About Me</h4>
             <p>
               Welcome! I'm Matilda Brantley, a full stack web developer. I love seeing an idea in my mind spring to life. 
-              Making software is the perfect outlet for this as it's one of the most living, mutable designs we make. 
+              Making software is the perfect outlet for this as it's one of the most living, mutable designs we create. 
               I also have a passion for the biological sciences, especially intelligent systems and evolution. These inspire my 
               ideals for software that can adjust to ever-changing needs and generate satisfying novel experiences for the user.
             </p>
