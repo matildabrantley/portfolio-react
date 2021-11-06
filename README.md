@@ -28,6 +28,8 @@ My portfolio refactored with React and React-Spring
     * Plan upcoming activities on a color-coded hourly basis
 * Workout Tracker - NoSQL with MongoDB, Express, Chart.js
     * Keep track of your fitness using Mongo database.
+* Book Search Engine - M.E.R.N Stack, Google Books API
+    * Full stack search engine for books using Google Books API.
 ## Screenshots
 ![Screenshot](screenshot.png)
 React-Spring used to lift up card from page
