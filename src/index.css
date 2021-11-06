@@ -29,6 +29,13 @@
     z-index:-1;
     background-size: cover;
   }
+  #background0 {
+    background: rgb(0, 0, 0)  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.5;
+  }
   #background1 {
     background: url("background-styles/floral-dream1.jpg")  no-repeat center center fixed; 
     -webkit-background-size: cover;
