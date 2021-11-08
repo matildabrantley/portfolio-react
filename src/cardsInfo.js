@@ -14,7 +14,7 @@ const cardsInfo = [
     id: 1,
     title: "LEaseGIT",
     url: "https://still-tundra-21201.herokuapp.com/",
-    description: "Sequelize, Express, Matter",
+    description: "Sequelize, Express, Handlebars, Matter",
     image: room,
     imageRatio: 784 / 1016
   },
@@ -30,7 +30,7 @@ const cardsInfo = [
     id: 3,
     title: "Password Generator",
     url: "https://matildabrantley.github.io/password-generator/",
-    description: "Generates passwords from user prompts",
+    description: "Generates passwords from user specifications",
     image: password,
     imageRatio: 800 / 1000
   },
