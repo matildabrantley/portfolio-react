@@ -10,7 +10,7 @@
 My professional portfolio refactored with React and React-Spring
 
 ## Projects
-* LEaseGIT - Sequelize, Express, Matter.js
+* LEaseGIT - Sequelize, Express, Handlebars, Matter.js
     * Post or search for real estate for sale, use room planner to stage a property or see how your furniture might fit
 * Brewery Travel Guide - OpenBrewery & Wikipedia APIs
     * Plan a trip, search for breweries, search Wikipedia for cities and states with filtered and curated results 
