@@ -177,6 +177,13 @@
   }
   
   @media screen and (min-width: 576px) {
+    
+    .col {
+      width: 40%;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
     .img-container {
       padding-bottom: 5px;
     }
